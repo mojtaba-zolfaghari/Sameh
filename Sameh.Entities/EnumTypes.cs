@@ -23,6 +23,16 @@ namespace Sameh.Entities
         Married = 2,
         SingleHousehold = 3
     }
+    #region Municipality
+
+
+    #region General
+    public enum IntraCityType
+    {
+        Freight = 1,
+        Passenger = 2
+    }
+
     public enum MunicipalityTransportOrganizationType
     {
         CityAndSuburbsPublicTransportOrganization = 1,
@@ -32,45 +42,77 @@ namespace Sameh.Entities
         MunicipalTerminal = 5,
         Other = 6
     }
-    public enum IntraCityType
-    {
-        Freight = 1,
-        Passenger = 2
-    }
+    #endregion
+
+    #region Passenger
     public enum PassengerIntraCityServiceType
     {
         Managerial = 1,
         Passenger = 2,
         Other = 3
     }
-    public enum FreightIntraCityServiceType
-    {
-        Managerial = 1,
-        Passenger = 2,
-        Other = 3
-    }
+
     public enum PassengerIntraCityFleetType
     {
         withFleet = 1,
         WithOutFleet = 2,
-        Other=3
-    } 
+        Other = 3
+    }
+
     public enum ManagerialPassengerIntraCityServiceAreaType
     {
         Bus = 1,
         Taxi = 2,
         Agency = 3,
-        InternetTaxies=4
+        InternetTaxies = 4
     }
+
     public enum PassengerPassengerIntraCityServiceAreaServiceType
     {
         Student = 1,
         OfficesOrganizationsCompaniesFactories = 2,
-    } 
+    }
     public enum OtherPassengerIntraCityServiceAreaServiceType
     {
         Exclusive = 1,
         Other = 2,
     }
+    #endregion
+
+
+    #region Freight
+    public enum FreightIntraCityServiceType
+    {
+        Managerial = 1,
+        Passenger = 2,
+        StationServices = 3,
+        Other = 4
+    }
+
+    public enum FreightIntraCityServiceAreaType
+    {
+        PublicLoad = 1,
+        Distribution = 2,
+        CarRescueVehicle = 3,
+        BikeDelivery = 4,
+        GarbageTruck = 5,
+        HomeFurnitureTruck = 5,
+        TrafficLoad = 6,
+        DangerouLoad = 7,
+        Other = 8
+
+    }
+
+
+    #endregion
+
+
+
+    #endregion
+    #region Agancy
+    #region MyRegion
+
+    #endregion
+    #endregion
 
 }
