@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Sameh.Entities.BaseEntity">
+    <Position X="4.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAACAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseEntity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sameh.Entities.City" Collapsed="true">
+    <Position X="4.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAgAABAAAAAAAAAQAAAAAAAAAAAAAAgAAIAA=</HashCode>
+      <FileName>CityFolder\City.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sameh.Entities.Organization" Collapsed="true">
+    <Position X="6.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CityFolder\Organization.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sameh.Entities.Province" Collapsed="true">
+    <Position X="3.75" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CityFolder\Province.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sameh.Entities.Town">
+    <Position X="9" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>CityFolder\Town.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sameh.Entities.Mayor" Collapsed="true">
+    <Position X="9" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Mayor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sameh.Entities.Municipality">
+    <Position X="0.5" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>QAEAAAAAAAAAAAAAAAEAAAQAAQgAAEAAAAAgAAAAAAA=</HashCode>
+      <FileName>Municipality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Sameh.Entities.MunicipalityAddress" Collapsed="true">
+    <Position X="0.5" Y="4.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAgAgAAAMAAABAAAAAAAAAAABAAACAgAAAAA=</HashCode>
+      <FileName>Municipality.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Sameh.Entities.ApplicantType" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAIAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.militaryServiceStatus" Collapsed="true">
+    <Position X="6.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAABQAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.MaritalType" Collapsed="true">
+    <Position X="4.5" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAAAAAAKAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.IntraCityType" Collapsed="true">
+    <Position X="8" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.MunicipalityTransportOrganizationType" Collapsed="true">
+    <Position X="8" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAEAAKAQCAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.PassengerIntraCityServiceType" Collapsed="true">
+    <Position X="6.25" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.PassengerIntraCityFleetType" Collapsed="true">
+    <Position X="4.5" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAgAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.ManagerialPassengerIntraCityServiceAreaType" Collapsed="true">
+    <Position X="2.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAAAAABAAAAAAAAAIAABAAAAAAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.PassengerPassengerIntraCityServiceAreaServiceType" Collapsed="true">
+    <Position X="8" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.OtherPassengerIntraCityServiceAreaServiceType" Collapsed="true">
+    <Position X="2.75" Y="9.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.FreightIntraCityServiceType" Collapsed="true">
+    <Position X="6.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAgAAAAAIAA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Sameh.Entities.FreightIntraCityServiceAreaType" Collapsed="true">
+    <Position X="4.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAQAAAAAAAAAAAQAAABAAAQAAAICQAAAAAAAAAAAAgA=</HashCode>
+      <FileName>EnumTypes.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

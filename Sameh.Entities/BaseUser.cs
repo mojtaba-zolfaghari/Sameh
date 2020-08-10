@@ -12,5 +12,6 @@ namespace Sameh.Entities
         public string NationalCode { get; set; }
         public DateTime? CreatedDate { get; set; }
         public DateTime? ModifiedDate { get; set; }
+
     }
 }
