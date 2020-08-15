@@ -10,7 +10,29 @@ namespace Sameh.Entities
         Municipality = 2,
         Organizatoin = 3
     }
-    public enum militaryServiceStatus
+
+
+
+    #region User
+    public enum GenderType
+    {
+        Male = 1,
+        Femail = 2
+    }
+    public enum EducationType
+    {
+        ReadAndWrite = 1,
+        Elementary = 2,
+        HighSchool = 3,
+        Diploma = 4,
+        Associate = 5,
+        Bachelor = 6,
+        Master = 7,
+        Doctoral = 8,
+        Proffesional = 9,
+        Other = 10
+    }
+    public enum MilitaryServiceStatus
     {
         EndOFMilitaryService = 1,
         PermanentExemption = 2,
@@ -23,6 +45,8 @@ namespace Sameh.Entities
         Married = 2,
         SingleHousehold = 3
     }
+    #endregion
+
     #region Municipality
 
 
@@ -109,10 +133,6 @@ namespace Sameh.Entities
 
 
     #endregion
-    #region Agancy
-    #region MyRegion
 
-    #endregion
-    #endregion
 
 }
